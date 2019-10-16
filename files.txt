@@ -209,3 +209,8 @@ proxy
 .Xauthority
 ClientConfig.xml
 ClientConf.xml
+.git
+.gitignore
+.gitmodules
+.hg
+.svn
