@@ -209,3 +209,5 @@ proxy
 .Xauthority
 ClientConfig.xml
 ClientConf.xml
+metrics
+healthz
