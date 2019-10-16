@@ -209,3 +209,7 @@ proxy
 .Xauthority
 ClientConfig.xml
 ClientConf.xml
+graphql
+graphiql
+graphql.php
+console
