@@ -213,3 +213,10 @@ graphql
 graphiql
 graphql.php
 console
+metrics
+healthz
+.git
+.gitignore
+.gitmodules
+.hg
+.svn
