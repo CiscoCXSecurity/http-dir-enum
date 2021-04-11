@@ -1,0 +1,25 @@
+
+2007-06-25 http-dir-enum v0.4.2
+
+* -x, -X can be used to specify regular expressions 
+  that must / must not be matched in reply.
+* -k option to search a list of directories
+
+2007-04-03 http-dir-enum v0.4.1
+
+* Doesn't report duplicates
+* -S option dedups results in a case-insensitive way
+
+2007-03-23 http-dir-enum v0.4.0
+
+* Initial Public Release
+
+2006-11-20 http-dir-enum v0.2.1
+
+* Improved help message for -i option
+* Removed dependency on Net::DNS
+
+2006-11-16 http-dir-enum v0.2
+
+* Initial internal release
+
