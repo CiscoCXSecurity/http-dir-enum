@@ -211,3 +211,9 @@ ClientConfig.xml
 ClientConf.xml
 metrics
 healthz
+.git
+.gitignore
+.gitmodules
+.hg
+.svn
+
