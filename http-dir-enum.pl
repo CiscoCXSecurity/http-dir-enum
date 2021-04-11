@@ -93,7 +93,7 @@ use XML::Simple;
 use MIME::Base64;
 $| = 1;
 
-my $VERSION            = "0.4.2";
+my $VERSION            = "0.4.3";
 my $global_debug       = 0;
 my $global_verbose     = 0;
 my $username           = undef;
@@ -127,7 +127,7 @@ my @child_handles      = ();
 $SIG{CHLD} = 'IGNORE'; # auto-reap
 my %opts;
 my $usage=<<USAGE;
-http-dir-enum v$VERSION ( http://portcullis-security.com/16.php )
+http-dir-enum v$VERSION ( http://labs.portcullis.co.uk/application/http-dir-enum/ )
 Copyright (C) 2006 Mark Lowe ( mrl\@portcullis-security.com )
 
 Given a URL and a wordlist, http-dir-enum will attempt to determine names of
@@ -273,7 +273,7 @@ if (defined($http_opt)) {
 	}
 }
 
-print "Starting http-dir-enum v$VERSION ( http://portcullis-security.com/16.php )\n";
+print "Starting http-dir-enum v$VERSION ( http://labs.portcullis.co.uk/application/http-dir-enum/ )\n";
 print "Copyright (C) 2006 Mark Lowe ( mrl\@portcullis-security.com )\n";
 print "\n";
 print " ----------------------------------------------------------\n";
